@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Kumar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family:'Poppins', sans-serif
+}
+body{
+    /* background-color: #179342; */
+    /* background-color: #39424e; */
+    background-color: #fff;
+    
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    background-color: #39424e;
+    justify-content: space-around;
+min-height: 60px;
+    
+}
+.hList li a{
+    text-decoration: none;
+    color: #099c3c;
+    font-weight: 300;
+    font-size: larger;
+}
+.hList li {
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size:x-large;
+    letter-spacing: 3px;
+    color: #fff;
+    height: 35px;
+    padding-right: 15px;
+    border-right: 6px solid #179342;
+}
+#login a{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    
+}
+</style>
+<body>
+    <div class="header">
+        <span class="logo">SATYAM</span>
+        <div class="hList">
+        <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">Contacts</a> </li>  
+
+        </ul>
+    </div>
+        <div id="login">
+            <a href="/login">Log In / Sign Up</a>
+        </div>
+    
+    </div>
+</body>
+</html>
